@@ -5,9 +5,14 @@ public class ErbendeKlasse extends VererbendeKlasse{
 	String attribute2;
 	
 	public boolean checkType(Object obj){
-		if(obj instanceof ErbendeKlasse){
+		if(obj instanceof ErbendeKlasse){			
 			return true;
 		}else{
+			
+			System.out.println(
+					obj.getClass().getName()
+					);
+			
 			return false;
 		}
 	}
