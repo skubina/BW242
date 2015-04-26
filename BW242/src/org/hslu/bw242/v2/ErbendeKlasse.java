@@ -17,4 +17,9 @@ public class ErbendeKlasse extends VererbendeKlasse{
 		}
 	}
 	
+	@Override
+	public String toString(){
+		return attribute1 + " " + attribute2;
+	}
+	
 }
