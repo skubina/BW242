@@ -3,9 +3,21 @@ package org.hslu.bw242.klausurVormittag;
 public class Kreuz  implements KreuzIntf{
 	
 	String wert;
-
+	int intEins = 1;
+	int intZwei = 2;
+	
+	String stringEins = "ass";
+	String stringZwei= stringEins;
+	String ass = "ass";
+	
 	public String getWert() {
 		return wert;
+		
+		
+		
+		
+		
+		
 	}
 
 	public void setWert(String wert) {

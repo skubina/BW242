@@ -36,6 +36,34 @@ public class Hochschulbetrieb {
 		d1.toString();
 		
 		
+		String string = new String("Obstsalat");
+		
+		String string1 = "Obstsalat";
+		String string2 = "Obstsalat";
+		String string3 = "Fleischsalat";
+		String string4 = string1;
+	
+		
+		if(string1 == string2){
+			//false
+		}
+		
+		if(string1.equals(string2)){
+			//true
+		}
+		
+		if(string1.equals(string3)){
+			//false
+		}
+		
+		if(string1 == string1){
+			//true
+		}
+		
+		if(string1 == string4){
+			//true
+		}
+		
 		Fach f1 = new Fach("BWL", d1);
 		Fach f2 = new Fach("BWL2", d1);
 		Fach f3 = new Fach("BWL3", d1);

@@ -4,6 +4,12 @@ public class Absturz {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		String zahl1;
+		String zahl2;
+		String potenz;
+		String operator;
+		
 
 		
 		try{			
